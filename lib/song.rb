@@ -29,6 +29,8 @@ class Song
     @@genres.each do |genre|
       if gen[genre]
         gen[genre] += 1
+      else
+        
     end
     gen
   end
