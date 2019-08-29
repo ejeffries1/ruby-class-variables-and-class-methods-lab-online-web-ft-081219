@@ -35,7 +35,7 @@ class Song
   def self.artist_count
      art = {}
     @@artists.collect do |artist|
-      art[artist] = @@artists.count
+      art[artist] = self.@@artists.count
     end
     art
   end
