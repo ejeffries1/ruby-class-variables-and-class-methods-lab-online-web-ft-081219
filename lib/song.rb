@@ -30,7 +30,7 @@ class Song
       if gen[genre]
         gen[genre] += 1
       else
-        
+        gen[genre] = 1
     end
     gen
   end
